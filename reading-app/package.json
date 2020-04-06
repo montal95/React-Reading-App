@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "engines": {
-    "node": "10.1.0"
+    "node": "12.12.0",
+    "npm": "^6.10.0",
+    "yarn": "^1.17.0"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -19,14 +21,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^3.5.0",
-    "nodemon": "^1.11.0"
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
-    "axios": "^0.18.1",
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "if-env": "^1.0.4",
-    "mongoose": "^5.0.17"
+    "mongoose": "^5.9.7"
   }
 }
